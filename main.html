@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Nico Arturo Jimenez Wright</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f3c59a; /* Amarillo claro */
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #f89635; /* Amarillo dorado */
+            color: #333;
+            padding: 30px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header h2 {
+            margin: 10px 0 0;
+            font-weight: 400;
+        }
+        nav ul {
+            padding: 0;
+            list-style: none;
+            text-align: center;
+            margin-top: 10px;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #333;
+            text-decoration: none;
+            font-size: 1.1em;
+            text-transform: uppercase;
+        }
+        nav ul li a:hover {
+            border-bottom: 2px solid #333;
+        }
+        .showcase {
+            background: url('https://source.unsplash.com/random/1920x1080') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: #fff;
+            position: relative;
+        }
+        .showcase h1 {
+            font-size: 4em;
+            margin: 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .content-section {
+            background: #fff; /* Blanco */
+            padding: 40px 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .content-section h2 {
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ffd700; /* Amarillo dorado */
+            margin-bottom: 20px;
+        }
+        .content-section ul {
+            padding: 0;
+            list-style: none;
+        }
+        .content-section ul li {
+            padding: 5px 0;
+        }
+        .content-section .skills ul li {
+            display: inline-block;
+            margin-right: 10px;
+            background: #ffd700; /* Amarillo dorado */
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+        .content-section .experience h3,
+        .content-section .projects h3,
+        .content-section .education h3,
+        .content-section .certifications h3 {
+            margin: 0;
+        }
+        .content-section .experience p,
+        .content-section .projects p,
+        .content-section .education p,
+        .content-section .certifications p {
+            margin: 5px 0 15px;
+        }
+        .contact {
+            background: #ffd700; /* Amarillo dorado */
+            color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        blockquote {
+            margin: 0;
+            padding: 20px;
+            background: #e4d5aa83; /* Amarillo claro */
+            border-left: 10px solid #ffd700; /* Amarillo dorado */
+        }
+        blockquote footer {
+            font-size: 0.9em;
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+        .hero {
+            background: #fff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .hero h1 {
+            color: #ffd700; /* Amarillo dorado */
+            font-size: 3em;
+            margin: 20px 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .btn-primary {
+            background: #ffd700; /* Amarillo dorado */
+            color: #333;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2em;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn-primary:hover {
+            background: #e6be0a; /* Amarillo dorado oscuro */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Nico Arturo Jimenez Wright</h1>
+            <h2>Desarrollador Web Full Stack</h2>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#experience">Experiencia</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#education">Educación</a></li>
+                    <li><a href="#certifications">Certificaciones</a></li>
+                    <li><a href="#testimonials">Testimonios</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Bienvenido a mi Portafolio</h1>
+        </div>
+    </section>
+
+    <section id="about" class="hero">
+        <div class="container">
+            <img src="data:image/png;base64,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" alt="Sobre mí">
+            <h1>Sobre mí</h1>
+            <p>Soy un desarrollador web con 5 años de experiencia desarrollando desde Bachileratoy y me especializo en el desarrollo de aplicaciones web utilizando tecnologías como JavaScript, React, Node.js y Python. Apasionado por crear soluciones eficientes y elegantes, siempre busco aprender y aplicar nuevas tecnologías para mejorar mis proyectos. En mis tiempos libres, disfruto tocar y componer música, lo cual me causa un gran sentimiento y me ayuda a desestresarme.</p>
+            <a href="#contact" class="btn-primary">Contáctame</a>
+        </div>
+    </section>
+
+    <section id="skills" class="content-section skills">
+        <div class="container">
+            <h2>Habilidades</h2>
+            <h3>Técnicas:</h3>
+            <ul>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>Git</li>
+                <li>Rust</li>
+                <li>HTML</li>
+                <li>SQL</li>
+            </ul>
+            <h3>Blandas:</h3>
+            <ul>
+                <li>Trabajo en equipo</li>
+                <li>Resolución de problemas</li>
+                <li>Comunicación efectiva</li>
+                <li>Gestión de proyectos</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience" class="content-section experience">
+        <div class="container">
+            <h2>Experiencia Profesional</h2>
+            <div>
+                <h3>Desarrollador Web Full Stack - Tech Solutions S.L.</h3>
+                <p><em>Marzo 2020 - Presente</em></p>
+                <ul>
+                    <li>Desarrollo de aplicaciones web utilizando React y Node.js</li>
+                    <li>Implementación de APIs RESTful</li>
+                    <li>Optimización de rendimiento y SEO</li>
+                    <li>Colaboración con equipos de diseño y marketing para mejorar la experiencia del usuario</li>
+                </ul>
+            </div>
+            <div>
+                <h3>Desarrollador Frontend - Web Creativa</h3>
+                <p><em>Enero 2018 - Febrero 2020</em></p>
+                <ul>
+                    <li>Creación de interfaces de usuario con HTML, CSS y JavaScript</li>
+                    <li>Integración con servicios de backend</li>
+                    <li>Mantenimiento de sitios web y resolución de bugs</li>
+                    <li>Participación en la planificación y diseño de nuevos proyectos</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="content-section projects">
+        <div class="container">
+            <h2>Proyectos</h2>
+            <div>
+                <h3>Aplicación de Gestión de Tareas</h3>
+                <p>Descripción: Aplicación web para la gestión de tareas personales y de equipo.</p>
+                <p>Tecnologías: React, Node.js, MongoDB</p>
+                <p>Rol: Desarrollador Full Stack</p>
+                <p>Enlace: <a href="https://github.com/nicoarturo/task-manager">GitHub</a></p>
+            </div>
+            <div>
+                <h3>E-commerce para Tienda de Ropa</h3>
+                <p>Descripción: Plataforma de comercio electrónico para una tienda de ropa local.</p>
+                <p>Tecnologías: Angular, Firebase</p>
+                <p>Rol: Desarrollador Frontend</p>
+                <p>Enlace: <a href="https://tiendaderopa.com">Tienda de Ropa</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="content-section education">
+        <div class="container">
+            <h2>Educación</h2>
+            <div>
+                <h3>ITESO - Universidad Jesuita de Guadalajara</h3>
+                <p><em>2018 - 2023</em></p>
+                <p>Ingeniero en Sistemas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="content-section certifications">
+        <div class="container">
+            <h2>Certificaciones</h2>
+            <div>
+                <h3>Certified JavaScript Developer</h3>
+                <p><em>JavaScript Institute</em></p>
+            </div>
+            <div>
+                <h3>Python for Data Science</h3>
+                <p><em>Coursera</em></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="content-section testimonials">
+        <div class="container">
+            <h2>Testimonios</h2>
+            <blockquote>
+                <p>Nico es un desarrollador excepcional. Su habilidad para resolver problemas complejos y su atención al detalle son impresionantes. Recomiendo ampliamente trabajar con él aunque tambien esta algo pasado el.</p>
+                <footer>— Dr. Alexander Zatyrka Pacheco, Director General de Universidades Jesuitas S.J</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contacto</h2>
+            <p>Si deseas ponerte en contacto conmigo, puedes enviarme un correo electrónico a <a href="mailto:nico.arturo@example.com">nico.arturo@example.com</a> o seguirme en mis redes sociales.</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Nico Arturo Jimenez Wright. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
